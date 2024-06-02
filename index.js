@@ -7,7 +7,6 @@ const fs = require("fs");
 const requiredEnvVars = [
   "PORT",
   "GITHUB_WEBHOOK_SECRET",
-  "SSH_PRIVATE_KEY_PATH",
   "GITHUB_REPOSITORIES",
   "GITHUB_TOKEN_FINE",
 ];
