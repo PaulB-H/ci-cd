@@ -159,7 +159,7 @@ async function handlePullRequestEvent(payload, repository) {
     // Create a comment informing admin / teams responsible for review
     const pullRequestId = payload.pull_request.number;
     const teamSlugs = [""];
-    const users = ["PaulB-H"];
+    const users = [""];
     await octokit.issues.createComment({
       owner: owner.login,
       repo: name,
